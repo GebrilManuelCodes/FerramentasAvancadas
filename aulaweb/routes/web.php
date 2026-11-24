@@ -8,3 +8,4 @@ Route::get('/', function () {
 });
 
 Route::get('/student', [EstudanteController::class, 'index']);
+Route::get('/save', [EstudanteController::class, 'store']);

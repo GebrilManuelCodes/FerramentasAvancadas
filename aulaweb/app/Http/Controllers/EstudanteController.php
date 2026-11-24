@@ -8,4 +8,7 @@ class EstudanteController extends Controller
     {
         return view('estudante');
     }
+    public function store(){
+        
+    }
 }
